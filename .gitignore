@@ -133,3 +133,12 @@ dmypy.json
 
 # Matching pyproject.toml
 paperscraper/version.py
+
+
+# Virtual environments
+env/
+venv/
+virtualenv/
+myenv/
+
+.DS_Store

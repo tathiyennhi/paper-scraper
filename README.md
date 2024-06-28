@@ -5,17 +5,19 @@ A proof of concept to scrape papers from journals
 ## Install
 
 ```bash
-pip install git+https://github.com/blackadad/paper-scraper.git
+pip install git+https://github.com/tathiyennhi/paper-scraper.git
+```
+
+or use 
+
+```bash
+pip install .
 ```
 
 ## Usage
 
 ```python
-import paperscraper
-
-papers = paperscraper.search_papers('bayesian model selection',
-                                    limit=10,
-                                    pdir='downloaded-papers')
+python app.py 'paper title'
 ```
 
 ## Note
